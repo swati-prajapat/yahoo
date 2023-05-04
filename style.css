@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    height: 150vh;
+    width: 100%;
+
+}
+
+nav {
+ 
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+nav img{
+    height: 45px;
+}
+
+nav a {
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(133, 90, 233);
+    text-decoration: none;
+   
+}
+
+.mini-container{
+    background-color: #f3f7f9;
+    height: 120vh;
+    margin: 20px 60px;
+    display: flex;
+    padding-top: 30px;
+
+  
+}
+.img-section{
+    height: 75vh;
+    width: 50%;
+    margin-left: 60px;
+  
+}
+
+.img-section img{
+    height: 55vh;
+    width: 100%;
+
+}
+.img-section h1{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.img-section p{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+.img-section button{
+   background-color: white;
+    width: 150px;
+    height:  40px;
+   border-radius: 20px;
+   border: 0;
+   margin-left: 30px;
+   margin-top: 12px;
+
+}
+
+
+.text-section{
+   background-color: white;
+    height: 75vh;
+    width: 28%;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+}
+.text-section img{
+    height: 50px;
+    width: 150px;
+    margin-left: 135px;
+    padding-top: 10px;
+}
+.text-section h1{
+    font-size: 35px;
+    margin-left: 170px;
+    padding-top: 40px;
+}
+.text-section p{
+    margin-left: 100px;
+}
+input{
+    height: 30px;
+    width: 75%;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: none;
+   border-bottom: 1px solid rgb(51, 49, 49);
+}
+
+#btn{
+    background-color: rgb(96, 96, 220);
+    margin-top: 30px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+a{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.signed{
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 80%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+
+
+button{
+ background-color: white;
+    height: 45px;
+    width: 75%;
+    margin-left: 50px;
+    border-radius: 30px;
+    border: 1px solid;
+   
+ 
+}
+ .contiune{ 
+    margin-top: 15px;
+    margin-bottom: 10px;
+   padding-left: 28px;
+    font-size: 15px;
+}
+
